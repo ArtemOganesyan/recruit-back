@@ -1,0 +1,14 @@
+Server started on: 3000
+MySQL connected...
+::1 - - [14/Jun/2023:06:29:23 +0000] "GET / HTTP/1.1" 404 25 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:23 +0000] "GET /favicon.ico HTTP/1.1" 404 36 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:52 +0000] "GET /recruit/api/v1/api-docs HTTP/1.1" 301 213 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:52 +0000] "GET /recruit/api/v1/api-docs/ HTTP/1.1" 200 1469 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:52 +0000] "GET /recruit/api/v1/api-docs/swagger-ui.css HTTP/1.1" 200 153554 "http://localhost:3000/recruit/api/v1/api-docs/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:52 +0000] "GET /recruit/api/v1/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 305885 "http://localhost:3000/recruit/api/v1/api-docs/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:52 +0000] "GET /recruit/api/v1/api-docs/swagger-ui-bundle.js HTTP/1.1" 200 939878 "http://localhost:3000/recruit/api/v1/api-docs/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:52 +0000] "GET /recruit/api/v1/api-docs/swagger-ui.css.map HTTP/1.1" 200 91 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:52 +0000] "GET /recruit/api/v1/api-docs/swagger-ui-bundle.js.map HTTP/1.1" 200 3971388 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:52 +0000] "GET /recruit/api/v1/api-docs/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 1432586 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:53 +0000] "GET /recruit/api/v1/swagger.json HTTP/1.1" 200 64104 "http://localhost:3000/recruit/api/v1/api-docs/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+::1 - - [14/Jun/2023:06:29:53 +0000] "GET /recruit/api/v1/api-docs/favicon-32x32.png HTTP/1.1" 200 1141 "http://localhost:3000/recruit/api/v1/api-docs/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"

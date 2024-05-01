@@ -1,0 +1,47 @@
+{
+  "name": "skryabin_recruit",
+  "version": "1.0.0",
+  "description": "recruit rest api",
+  "main": "recruit_back.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "process": "node $NODE_DEBUG_OPTION recruit_back.js",
+    "start": "node recruit_back.js > logs/recruit_back.log 2> logs/recruit_back.log & echo $! > logs/recruit_back.pid",
+    "stop": "kill -9 $(cat logs/recruit_back.pid) && rm logs/recruit_back.pid"
+  },
+  "engines": {
+    "node": ">=6.11.1",
+    "npm": ">=3.10.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vskryabin/recruit-rest-api.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "recruit"
+  ],
+  "author": "Slava Skryabin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vskryabin/recruit-rest-api/issues"
+  },
+  "homepage": "https://github.com/vskryabin/recruit-rest-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0",
+    "swagger-jsdoc": "^3.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
